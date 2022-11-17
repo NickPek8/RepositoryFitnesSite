@@ -26,6 +26,7 @@ body{
 }
 .user_namephoto{
     display: flex;
+    margin-top: 2%;
     justify-content: space-around  ;
 }
 .user_photo{
