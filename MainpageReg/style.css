@@ -244,9 +244,13 @@ to{
     background-color: #797878; 
     color: #797878; 
     height: 2px;
-}footer{
-	height: 80px;
-    background: #131212;
+}
+.footer{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #575656;
 }
 .footer_content{
     display: flex;

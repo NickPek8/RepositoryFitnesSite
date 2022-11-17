@@ -1,5 +1,5 @@
 body{
-    background: black;
+    background: linear-gradient(90deg, #363636 0%, #68686b 35%, #a8a9aa 100%);
     font-family: Playfair Display;
     height: 100%;
     align-items: center;
@@ -126,7 +126,10 @@ body{
     }
     }
     .footer{
-        height: 80px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         background: #575656;
     }
     .footer_content{

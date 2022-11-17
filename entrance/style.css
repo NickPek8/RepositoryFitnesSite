@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 .content {
-    min-height: calc(100vh - 150px);
+    min-height: calc(100vh - 130px);
     display: flex;
     flex: 1 0 auto;
     align-items: center;
@@ -36,6 +36,7 @@
     height: 60px;
     width: 100%;
     align-items: center;
+    justify-content: space-around;
     background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
     margin-left: 5%;
     font-size: 24px;
@@ -46,7 +47,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 20%;
 }
 .phone_number{
     color: #d1cccc;
@@ -157,7 +157,10 @@ to{
 }
 }
 footer{
-	height: 80px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background: #575656;
 }
 .footer_content{

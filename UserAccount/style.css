@@ -113,7 +113,10 @@ a{
     text-decoration: none;
 }
 .footer{
-	height: 80px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background: #575656;
 }
 .footer_content{
