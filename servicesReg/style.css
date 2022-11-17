@@ -47,6 +47,7 @@ body{
     animation: clr 0.4s;    
 }
 .sq{
+    width: auto;
     color: #d1cccc;
     padding-left: 40px;
 }
@@ -58,14 +59,14 @@ body{
     justify-content: space-around;
 }
 .aboniments{
-    background: #8f8c8c;
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .aboniment{ 
-    background:#b8b5b5;
+    background:#272727;
+    color: #d1cccc;
     width: 28%;
     display: flex;
     align-items: center;
