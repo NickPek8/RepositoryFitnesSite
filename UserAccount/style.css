@@ -55,6 +55,7 @@ a{
 }
 .user_text{
     font-size: 40px ;
+    border-bottom: 1px solid black;
     color: #d1cccc;
 }
 .buttons{
