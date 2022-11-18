@@ -248,7 +248,7 @@ to{
     color: #797878; 
     height: 2px;
 }
-footer{
+.footer{
     height: 60px;
     display: flex;
     flex-direction: column;
