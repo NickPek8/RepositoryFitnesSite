@@ -30,7 +30,7 @@ header{
     width: 100%;
     align-items: center;
     justify-content: space-around;
-        background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
+    background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
     margin-left: 5%;
     font-size: 24px;
     color: #9b9b9b;
@@ -62,15 +62,15 @@ header{
 }
 .GW{
     width: 10%;
-    height: 60px;
+    height: 30px;
     background: #575656;
     font-size: 28px;
     line-height: 10%;
-    padding-left: 5px;
+    padding-left: 30px;
 }
 .lnk{
-line-height: 100%;
-color: #d1cccc;
+    line-height: 100%;
+    color: #d1cccc;
 }
 .pass{
     height: 40px;
