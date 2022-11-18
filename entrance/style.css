@@ -1,4 +1,4 @@
- body{
+body{
     background: linear-gradient(90deg, #363636 0%, #68686b 35%, #a8a9aa 100%);
     font-family: Playfair Display;
     height: 100%;
@@ -24,26 +24,20 @@
     align-items: center;
     justify-content: space-around;
 }
-.GW{
-    height: 60px;
-    background: #575656;
-    font-size: 28px;
-    line-height: 10%;
-    padding-left: 5px;
-}
 .aboutus{
+    height: 60px;
+    width: 75%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 60px;
-    width: 100%;
     background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
+    margin-left: 5%;
     font-size: 24px;
     color: #9b9b9b;
 }
 .sq{
     color: #d1cccc;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 .forgot{
     position: relative;
@@ -51,15 +45,16 @@
     top: 60px;
 }
 .GW{
-    height: 60px;
+    width: 10%;
+    height: 30px;
     background: #575656;
     font-size: 28px;
     line-height: 10%;
-    padding-left: 5px;
+    padding-left: 30px;
 }
 .lnk{
-line-height: 100%;
-color: #d1cccc;
+    line-height: 100%;
+    color: #d1cccc;
 }
 .pass{
     height: 40px;
@@ -104,7 +99,7 @@ color: #d1cccc;
     color: #9b9b9b;
 }
 .forgot:hover{
-color: white;
+    color: white;
 }
 .Entrance:hover{
     background-color: #9b9b9b;
@@ -117,12 +112,12 @@ a{
 }
 .phone{
     display: flex;
-    height: 100%;
     flex-direction: column;
+    height: 60px;
     align-items: center;
     justify-content: space-around;
+    width: 160px;
     background: #a8a9aa;
-    width: 100%;
 }
 .phone_number{
     color: #d1cccc;
