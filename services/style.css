@@ -43,10 +43,6 @@ body{
 .phone_link{
     text-decoration: none;
 }
-.sq{
-    color: #d1cccc;
-    padding-left: 40px;
-}
 .content {
     min-height: calc(100vh - 130px);
     flex: 1 0 auto;
