@@ -4,7 +4,7 @@ body{
     height: 100%;
     align-items: center;
 }
-.header{
+header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,11 +18,11 @@ body{
     flex-direction: column;
 }
 .aboutus{
-    height: 60px;
-    width: 75%;
     display: flex;
-    justify-content: space-around;
+    height: 60px;
+    width: 100%;
     align-items: center;
+    justify-content: space-around;
     background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
     margin-left: 5%;
     font-size: 24px;
@@ -34,7 +34,7 @@ body{
     height: 60px;
     align-items: center;
     justify-content: space-around;
-    width: 160px;
+    width: 20%;
     background: #a8a9aa;
 }
 .phone_number{
